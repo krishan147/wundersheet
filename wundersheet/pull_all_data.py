@@ -40,7 +40,7 @@ def pullData(access_token,client_id):
             wks.update_cell('D'+str(x), title)
             wks.update_cell('E' + str(x), created_at)
             x = int(x) + 1
-            time.sleep(3)
+            time.sleep(2)
 
     where_am_i = open("where_am_i.txt","w")
     where_am_i.write(str(x))
